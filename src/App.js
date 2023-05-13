@@ -10,11 +10,8 @@ import Lottie from 'lottie-react';
 import loadingPortfolio from './assets/loadingPortfolio.json'
 import GetInTouch from './containers/GetInTouch/GetInTouch';
 
-import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-const NotFound = () => {
-  return <Navigate to="/" />;
-}
 
 
 const initialState = {
@@ -70,7 +67,6 @@ class App extends Component {
               <Route path="/" element={<HomePage onProjectChange={this.handleProjectChange}/>} />
               <Route path="/project/:projectName" element={<ProjectSidePage i={project}/>} />
               <Route path="/findme" element={<GetInTouch/>} />
-              <Route path="*" element={<NotFound />} />
             </Routes>
           </Router>
 
