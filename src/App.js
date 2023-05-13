@@ -41,6 +41,10 @@ class App extends Component {
       this.state({project:i});
     }
 
+    NotFound() {
+      return <Navigate to="/" />;
+    }
+
 
 
 
@@ -64,6 +68,7 @@ class App extends Component {
               <Route path="/" element={<HomePage onProjectChange={this.handleProjectChange}/>} />
               <Route path="/project/:projectName" element={<ProjectSidePage i={project}/>} />
               <Route path="/findme" element={<GetInTouch/>} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Router>
 
