@@ -1,0 +1,197 @@
+.p__about{
+    background: var(--color-darkpurple);
+    z-index: 20;
+    position: relative;
+}
+
+.p__about_code-section{
+    background: var(--color-darkpurple);
+    padding: 2rem 0.5rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+.p__about_buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.p__about_button{
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1.2rem;
+    background: var(--color-yellow);
+    cursor: pointer;
+}
+
+.p__about_button:hover{
+    background: var(--color-darkyellow);
+}
+
+.p__about-terminal-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3.5rem;
+}
+
+.p__about-terminal{
+    width: 100%;
+    background-color: var(--color-black);
+    border: 2px solid var(--color-yellow);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    word-spacing: 1px;
+    gap: 0.4rem;
+    position: relative;
+}
+
+.p__about-terminal-education,
+.p__about-terminal-workExperience{
+    flex-wrap: wrap;
+}
+
+
+
+
+.p__about-terminal p{
+    color: green;
+    display: flex;
+    gap: 0.5rem;
+    font-family: var(--font-terminal);
+}
+
+.p__about-terminal p span{
+    font-family: var(--font-terminal);
+}
+
+.p__about-terminal-time{
+    margin-top: 1.5rem;
+}
+
+.p__about-terminal-clear{
+    padding: 0.2rem;
+    border-style: none;
+    border: 2px solid var(--color-yellow);
+    color: green;
+    background: var(--color-black);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+
+@media screen and (max-width:800px){
+
+    .p__about_code-section{
+        padding: 1rem 2rem 1rem 2.5rem;
+        gap: 1rem;
+    }
+
+    .p__about_button{
+        padding: 0.4rem 1.3rem;
+        font-size: 1rem;
+    }
+
+    .p__about-terminal p{
+        font-size: 0.7rem;
+    }
+    .p__about-terminal-wrapper{
+        padding-right: 0.5rem;
+    }
+
+    .p__about-terminal-time{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:576px){
+
+
+    .p__about_code-section{
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .p__about_button{
+        padding: 0.3rem 1.1rem;
+        font-size: 0.8rem;
+    }
+
+    .p__about-terminal-wrapper{
+        padding-right: 0
+    }
+
+    .p__about-terminal p{
+        font-size: 0.5rem;
+    }
+    .p__about-terminal-time{
+        margin-top: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+
+    .p__about_code-section{
+        padding: 1rem 2rem 1rem 1.5rem;
+    }
+    
+    .p__about_buttons{
+        gap: 0.5rem;
+    }
+    .p__about_button{
+        padding: 0.25rem 0.9rem;
+        font-size: 0.6rem;
+    }
+
+    .p__about-terminal p{
+        font-size: 0.4rem;
+    }
+
+    .p__about-terminal-time{
+        margin-top: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width:350px){
+
+
+
+    .p__about_code-section{
+        padding: 0.5rem 2rem 1rem 1rem;
+    }
+
+    .p__about_button{
+        padding: 0.2rem 0.7rem;
+        font-size: 0.5rem;
+    }
+
+    .p__about-terminal{
+        padding: 0.5rem 0.4rem;
+    }
+
+    .p__about-terminal p{
+        font-size: 0.3rem;
+    }
+
+    .p__about-terminal-time{
+        margin-top: 0.5rem;
+    }
+
+}

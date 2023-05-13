@@ -1,0 +1,22 @@
+.p__work{
+    position: relative;
+}
+
+.p__work_section{
+    padding: 4rem 3rem;
+
+}
+
+.p__work_cards{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:576px) {
+    .p__work_section{
+        padding: 3rem 2rem;
+    }
+}
+

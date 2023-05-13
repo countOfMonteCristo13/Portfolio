@@ -1,0 +1,227 @@
+.p__getInTouch{
+    height: 100vh;
+}
+
+
+.p__getInTouch-section{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.p__getInTouch-section_title h2{
+    font-size: 2rem;
+    /* text-transform: uppercase; */
+    color: var(--color-yellow);
+}
+
+
+.p__getInTouch-section_form{
+    padding: 1rem 4rem 1.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    border: 4px solid var(--color-yellow);
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.p__getInTouch-section_form-input-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.p__getInTouch-section_form-input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.p__getInTouch-section_form-input label,
+.p__getInTouch-section_form-input input,
+.p__getInTouch-section_form-input textarea{
+
+    color: var(--color-yellow);
+    
+}
+
+.p__getInTouch-section_form-input input,
+.p__getInTouch-section_form-input textarea{
+    border-radius: 10px;
+    border-style: unset;
+    padding: 0.5rem;
+    background: transparent;
+    border: 4px solid var(--color-yellow);
+    outline: none;
+    width: 100%;
+}
+
+.p__getInTouch-section_form-input textarea{
+    max-width: 300px;
+}
+
+.p__getInTouch-section_form-input p{
+    font-size: 0.8rem;
+    color: red;
+}
+
+.p__getInTouch-section_form-submit{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    cursor: auto;
+}
+
+.visible-btn{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.2rem;
+    border: 2px solid var(--color-yellow);
+    background: var(--color-yellow);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: var(--color-green);
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px var(--color-yellow) inset, 0 0 0 0 var(--color-yellow);
+    transition: all 150ms ease-in-out;
+
+}
+
+.button:hover{
+    box-shadow: 0 0 5px 0 var(--color-yellow) inset, 0 0 3px 2px var(--color-yellow);
+    background: var(--color-green);
+    color: var(--color-yellow);
+}
+
+.button:disabled{
+    box-shadow: 0 0 40px 40px var(--color-yellow) inset, 0 0 0 0 var(--color-yellow);
+    color: var(--color-green);
+    cursor: auto;
+}
+
+.button::after{
+    content:'Send'
+}
+
+
+
+.onclick{
+    width: 50px;
+    border-radius: 50%;
+    border-color: var(--color-green);
+    border-width: 5px;
+    box-shadow: none;
+    font-size: 0;
+    border-left-color: var(--color-yellow);
+    animation: rotating 2s 0.25s linear infinite;
+    background: none;
+}
+
+.onclick::after{
+    content: "";
+}
+
+.onclick:hover{
+    background: var(--color-green);
+    color: var(--color-yellow);
+    box-shadow: none;
+}
+
+
+.validate{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.validate:hover{
+    box-shadow: none;
+    background: var(--color-yellow);
+}
+
+.validate::after{
+    height: 22px;
+    content: url('../../assets/check.png')
+}
+
+
+
+
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+.p__getInTouch-goback{
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    transition: all 0.15s;
+}
+
+.p__getInTouch-goback{
+    padding: 0.5rem;
+    border: 2px solid var(--color-yellow);
+    height: fit-content;
+    border-radius: 50%;
+
+}
+
+
+.p__getInTouch-goback img{
+    max-width: 1rem;
+}
+
+.p__getInTouch-goback:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:576px) {
+    .p__getInTouch-section_form{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-height:586px) {
+    .p__getInTouch{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .p__getInTouch-section_form{
+        padding: 1rem 1.5rem;
+    }
+
+    .p__getInTouch-section_form-input label,
+    .p__getInTouch-section_form-input input,
+    .p__getInTouch-section_form-input textarea{
+
+        font-size: 0.8rem;
+        
+    }
+    .p__getInTouch-section_title h2{
+        font-size: 1.5rem;
+    }
+}
+

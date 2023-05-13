@@ -1,0 +1,125 @@
+.card{
+    cursor: pointer;
+}
+
+
+.p__work_cards-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 310px;
+    background: var(--color-yellow);
+}
+
+.p__work_cards-card_img{
+    max-height: 310px;
+    max-width: 310px;
+    background: var(--color-green);
+}
+
+
+.p__work_cards-card_img img{
+    width: 310px;
+    height: 310px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* .p__work_cards-card_info{
+
+    background: var(--color-yellow);
+} */
+
+.p__work_cards-card_info h3{
+    font-size: 1.3rem;
+    color: var(--color-green);
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .p__work_cards-card{
+        max-width: 260px;
+    }
+
+    .p__work_cards-card_img{
+        max-height: 260px;
+        max-width: 260px;
+    }
+
+    .p__work_cards-card_img img{
+        height: 260px;
+        width: 260px;
+    }
+
+    .p__work_cards-card_info h3{
+        font-size: 1.1rem;
+        padding: 1rem 0.5rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+
+    .p__work_cards-card{
+        max-width: 235px;
+    }
+
+    .p__work_cards-card_img{
+        max-height: 235px;
+        max-width: 235px;
+    }
+
+    .p__work_cards-card_img img{
+        height: 235px;
+        width: 235px;
+    }
+
+    .p__work_cards-card_info h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .p__work_cards-card{
+        max-width: 220px;
+    }
+
+    .p__work_cards-card_img{
+        max-height: 220px;
+        max-width: 220px;
+    }
+
+    .p__work_cards-card_img img{
+        height: 220px;
+        width: 220px;
+    }
+
+    .p__work_cards-card_info h3{
+        font-size: 0.9rem;
+        padding: 1rem 0.5rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .p__work_cards-card{
+        max-width: 180px;
+    }
+
+    .p__work_cards-card_img{
+        max-height: 180px;
+        max-width: 180px;
+    }
+
+    .p__work_cards-card_img img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .p__work_cards-card_info h3{
+        font-size: 0.7rem;
+        padding: 1rem 0.5rem;
+    }
+}

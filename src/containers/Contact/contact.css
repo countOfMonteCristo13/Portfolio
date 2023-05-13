@@ -1,0 +1,199 @@
+.p__contact{
+    background: var(--color-darkpurple);
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p__contact_subheading{
+    align-self: flex-start;
+}
+
+.p__contact_section{
+    padding-top: 2rem;
+    padding-bottom: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.p__contact_section-heading h3{
+    color: var(--color-yellow);
+}
+
+.p__contact_section-smedia{
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem; */
+     
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+        
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+
+.p__contact_section-smedia_logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+    border: 2px solid var(--color-yellow);
+    width: 400px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.p__contact_section-smedia_logo a,
+.p__contact_section-smedia_logo button{
+    color: var(--color-yellow);
+    font-size: 1.2rem;
+    background: transparent;
+    border-style: none;
+}
+
+
+.p__contact_section-smedia_logo img{
+    max-width: 2.5rem;
+}
+
+.p__contact_section-button{
+    margin: 2rem 0;
+}
+
+.p__contact_section-button button{
+    font-size: 1.2rem;
+    border-style: none;
+    border: 2px solid var(--color-yellow);
+    background: var(--color-yellow);
+    padding: 0.9rem 1.8rem;
+    font-weight: bold;
+    color: var(--color-darkpurple);
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 40px 40px var(--color-yellow) inset, 0 0 0 0 var(--color-yellow);
+    transition: all 150ms ease-in-out;
+}
+
+.p__contact_section-button button:hover{
+    box-shadow: 0 0 10px 0 var(--color-yellow) inset, 0 0 5px 4px var(--color-yellow);
+    background: var(--color-darkpurple);
+    color: var(--color-yellow);
+}
+
+.p__contact_section-smedia_logo:hover{
+    box-shadow: 0 0 10px 0 var(--color-yellow) inset, 0 0 10px 4px var(--color-yellow);
+}
+
+.p__contact-copyright{
+    color: var(--color-yellow);
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+    .p__contact_section-smedia_logo{
+        gap: 1rem;
+        padding: 1rem;
+        width: 350px;
+    }
+    .p__contact_section-smedia_logo img{
+        max-width: 2rem;
+    }
+
+    .p__contact_section-smedia_logo a,
+    .p__contact_section-smedia_logo button{
+        font-size: 1rem;
+    }
+    .p__contact_section-smedia {
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width:800px) {
+
+    .p__contact_section-smedia {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        }
+        
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+    .div3 { grid-area: 3 / 1 / 4 / 2; }
+    .div4 { grid-area: 4 / 1 / 5 / 2; }
+    .div5 { grid-area: 5 / 1 / 6 / 2; }
+    .div6 { grid-area: 6 / 1 / 7 / 2; }
+    
+}
+
+@media screen and (max-width:576px) {
+
+    .p__contact_section-smedia_logo{
+        padding: 0.9rem;
+        width: 300px;
+    }
+
+    .p__contact_section-smedia_logo img{
+        max-width: 1.5rem;
+    }
+
+    .p__contact_section-smedia_logo a,
+    .p__contact_section-smedia_logo button{
+        font-size: 0.9rem;
+    }
+
+    .p__contact_section-button button{
+        font-size: 1rem;
+        padding: 0.7rem 1.4rem;
+    }  
+
+    .p__contact-copyright{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .p__contact_section-smedia_logo{
+        padding: 0.8rem;
+        width: 230px;
+        gap: 0.5rem;
+    }
+
+    .p__contact_section-smedia_logo img{
+        max-width: 1.2rem;
+    }
+
+    .p__contact_section-smedia_logo a,
+    .p__contact_section-smedia_logo button{
+        font-size: 0.7rem;
+    }
+
+    .p__contact_section-button button{
+        font-size: 1rem;
+        padding: 0.7rem 1.4rem;
+    }  
+
+    .p__contact-copyright{
+        font-size: 0.7rem;
+    }
+}

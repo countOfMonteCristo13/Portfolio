@@ -1,0 +1,121 @@
+.p__sidepage{
+    display: flex;
+    flex-direction: row;
+    /* background: var(--color-darkpurple); */
+    
+}
+
+
+.p__sidepage-goback{
+    padding: 0.5rem;
+    border: 2px solid var(--color-yellow);
+    height: fit-content;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    transition: all 0.15s;
+}
+
+
+.p__sidepage-goback img{
+    max-width: 1rem;
+}
+
+.p__sidepage-goback:hover{
+    transform: scale(1.05);
+}
+
+.p__sidepage_project{
+    position: relative;
+    width: 65%;
+}
+
+.p__sidepage_project img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.p__sidepage_project-info{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    border-left: 0.5rem solid var(--color-yellow);
+    padding: 2rem 2rem 1rem 2rem;
+    gap: 2rem;
+    width: 35%;
+    color: var(--color-yellow);
+}
+
+.p__sidepage_project-info_programs p{
+    opacity: 0.5;
+    color: var(--color-yellow);
+    text-align: center;
+}
+
+.p__sidepage_project-info p{
+    font-size: 1.1rem;
+}
+
+.p__sidepage_project-info_button{
+    margin: 2rem 0;
+}
+
+.p__sidepage_project-info_button button{
+    font-size: 1.2rem;
+    border-style: none;
+    border: 2px solid var(--color-yellow);
+    background: var(--color-yellow);
+    padding: 0.9rem 1.8rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: var(--color-green);
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 40px 40px var(--color-yellow) inset, 0 0 0 0 var(--color-yellow);
+    transition: all 150ms ease-in-out;
+}
+
+.p__sidepage_project-info_button button:hover{
+    box-shadow: 0 0 10px 0 var(--color-yellow) inset, 0 0 5px 4px var(--color-yellow);
+    background: var(--color-green);
+    color: var(--color-yellow);
+}
+
+.p__sidepage_project-info_line{
+    width: 100%;
+}
+
+.p__sidepage_project-info_line div{
+    height: 2px;
+    background: var(--color-yellow);
+
+    border-radius: 20px;
+}
+
+@media screen and (max-width:800px) {
+
+    .p__sidepage{
+        flex-direction: column-reverse;
+        
+    }
+    .p__sidepage_project{
+        width: 100%;
+    }
+    
+    .p__sidepage_project-info{
+        position: relative;
+        height: 100vh;
+        border-left: unset;
+        width: 100%;
+    }
+}
