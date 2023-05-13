@@ -98,7 +98,7 @@
 @media screen and (max-width:800px){
 
     .p__about_code-section{
-        padding: 1rem 2rem 1rem 2.5rem;
+        padding: 1rem 1rem 1rem 2.5rem;
         gap: 1rem;
     }
 
@@ -123,7 +123,7 @@
 
 
     .p__about_code-section{
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 1rem 1rem 1rem 2rem;
     }
 
     .p__about_button{
@@ -148,7 +148,7 @@
 
 
     .p__about_code-section{
-        padding: 1rem 2rem 1rem 1.5rem;
+        padding: 1rem 1rem 1rem 1.5rem;
     }
     
     .p__about_buttons{
@@ -174,7 +174,7 @@
 
 
     .p__about_code-section{
-        padding: 0.5rem 2rem 1rem 1rem;
+        padding: 0.5rem 1rem 1rem 1rem;
     }
 
     .p__about_button{

@@ -144,10 +144,10 @@ const AboutCode = () => {
                                 <p className='property'>{"ArrayList<>( ) "}<span className='code'>;</span> </p>
                             </div>
                             <div data-code-line='30' className='p__about_code-section_codes-code'>
-                                <p className='property'><span className='dot'>· · · · · · </span>education<span className='code'>.</span>{'add('}<span className='string'>{' " 2021-2022 : Faculty of Pedagogy - Master\'s degree in Education " '} </span>{') '} <span className='code'>;</span> </p> 
+                                <p className='property'><span className='dot'>· · · · · · </span>education<span className='code'>.</span>{'add('}<span className='string'>{' " 2021-2022 : Faculty of Pedagogy - Master\'s in Education " '} </span>{') '} <span className='code'>;</span> </p> 
                             </div>
                             <div data-code-line='31' className='p__about_code-section_codes-code'>
-                                <p className='property'><span className='dot'>· · · · · · </span>education<span className='code'>.</span>{'add('}<span className='string'>{' " 2017-2021 : Faculty of Pedagogy - Bachelor\'s degree in Education " '} </span>{') '} <span className='code'>;</span> </p> 
+                                <p className='property'><span className='dot'>· · · · · · </span>education<span className='code'>.</span>{'add('}<span className='string'>{' " 2017-2021 : Faculty of Pedagogy - Bachelor\'s in Education " '} </span>{') '} <span className='code'>;</span> </p> 
                             </div>
                             <div data-code-line='32' className='p__about_code-section_codes-code'>
                                 <p className='property'><span className='dot'>· · · · · · </span>education<span className='code'>.</span>{'add('}<span className='string'>{' " 2014-2016 : Faculty of Technical Sciences " '} </span>{') '} <span className='code'>;</span> </p> 

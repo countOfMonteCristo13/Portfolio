@@ -149,7 +149,7 @@
 
 
     .p__about_code-section_codes-code p{
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
 
     .p__about_code-section_codes-code{
@@ -157,9 +157,6 @@
         gap: 6px;
     }
 
-    .p__about_code-section{
-        padding: 1rem 2rem 1rem 2rem;
-    }
 
     .empty-line{
         height: 12.8px;
@@ -168,7 +165,7 @@
 
     .p__about_code-section_codes-code::after{
         content: attr(data-code-line);
-        font-size: 0.5rem;
+        font-size: 0.55rem;
         height: 12.8px;
         left: -1.35rem;
     }
@@ -178,7 +175,7 @@
 @media screen and (max-width:450px){
 
     .p__about_code-section_codes-code p{
-        font-size: 0.4rem;
+        font-size: 0.45rem;
     }
 
     .p__about_code-section_codes-code{
@@ -194,7 +191,7 @@
 
     .p__about_code-section_codes-code::after{
         content: attr(data-code-line);
-        font-size: 0.4rem;
+        font-size: 0.45rem;
         height: 9.6px;
         left: -1.05rem;
     }
@@ -205,7 +202,7 @@
 
 
     .p__about_code-section_codes-code p{
-        font-size: 0.3rem;
+        font-size: 0.37rem;
     }
 
     .p__about_code-section_codes-code{
@@ -221,7 +218,7 @@
 
     .p__about_code-section_codes-code::after{
         content: attr(data-code-line);
-        font-size: 0.3rem;
+        font-size: 0.37rem;
         height: 9.6px;
         left: -0.75rem;
     }

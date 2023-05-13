@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './about.css'
-import images from '../../constants/images'
 import AboutCode from '../../components/AboutCode/AboutCode'
 import Subheading from '../../components/Subheading/Subheading'
 
@@ -51,8 +50,8 @@ const About = () => {
                         <span>{'2018-2021: Math tutor ]'}</span>
                     </p>
                     <p className='p__about-terminal-education'>
-                        <span>{'[ 2021-2022: Faculty of Pedagogy - Master\'s degree in Education,\t '}</span>
-                        <span>{'2017-2021: Faculty of Pedagogy - Bachelor\'s degree in Education,\t '}</span>
+                        <span>{'[ 2021-2022: Faculty of Pedagogy - Master\'s in Education,\t '}</span>
+                        <span>{'2017-2021: Faculty of Pedagogy - Bachelor\'s in Education,\t '}</span>
                         <span>{'2014-2016: Faculty of Technical Sciences ]'}</span>
                     </p>
                     <p className='p__about-terminal-time'>Process finished with exit code 0</p>
