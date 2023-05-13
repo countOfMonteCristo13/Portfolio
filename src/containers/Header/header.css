@@ -11,10 +11,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30px;
+}
+
+.up-btn img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .up-btn{
+        width: 25px;
+        right: 0.8rem;
+        bottom: 0.8rem;
+    }
 }
 
 @media screen and (max-height:450px) {
     .p__header{
         height: auto;
     }
+
 }

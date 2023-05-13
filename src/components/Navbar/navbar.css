@@ -147,7 +147,20 @@ nav{
     
 }
 
+@media screen and (max-width:576px) {
+    .p__navbar_menu-button div{
+        width: 25px;
+        height: 3px;
+        top: 0.8rem;
+        right: 0.8rem;
+    }
+}
+
+
+
 @media screen and (max-width:450px) {
+
+
     .p__navbar_logo h2{
         font-size: 2rem;
     }
