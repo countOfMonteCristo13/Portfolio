@@ -6,7 +6,7 @@
 }
 
 .p__contact_subheading{
-    align-self: flex-start;
+    width: 100%;
 }
 
 .p__contact_section{
@@ -22,10 +22,6 @@
 }
 
 .p__contact_section-smedia{
-    /* display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem; */
      
     display: grid;
     grid-template-columns: repeat(2, 1fr);
