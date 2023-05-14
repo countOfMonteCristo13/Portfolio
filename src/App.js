@@ -1,5 +1,3 @@
-
-
 import React, { Component } from 'react';
 import './App.css';
 import ProjectSidePage from './components/ProjectSidePage/ProjectSidePage';
@@ -41,11 +39,6 @@ class App extends Component {
     changeProject(i){
       this.state({project:i});
     }
-
-
-
-
-
 
   render(){
 
