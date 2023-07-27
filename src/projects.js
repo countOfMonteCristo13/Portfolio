@@ -39,6 +39,13 @@ const projects = [
         title:'Obodinac Web Page',
         description: obodinacDesc,
         specification:obodinacSpec,
+    },
+    {
+        img:images.velimirPorfolioPage,
+        title:"Velimir's Portfolio",
+        description: obodinacDesc,
+        specification:obodinacSpec,
+        link:'https://velimir-portfolio.onrender.com/'
     }
 ]
 

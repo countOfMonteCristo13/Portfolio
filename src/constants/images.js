@@ -31,6 +31,8 @@ import magicBrain from '../assets/magicbrain.png'
 import magicBrainPage from '../assets/magicBrainPage.png'
 import check from '../assets/check.png'
 import up_arrow from '../assets/up-arrow.png'
+import velimirPorfolio from '../assets/velimir_portfolio.png'
+import velimirPorfolioPage from '../assets/velimirPortfolioPage.png'
 
 const images = {
     openBracket,
@@ -65,7 +67,9 @@ const images = {
     magicBrain,
     magicBrainPage,
     check,
-    up_arrow
+    up_arrow,
+    velimirPorfolio,
+    velimirPorfolioPage,
 }
 
 export default images;

@@ -36,6 +36,9 @@ class Work extends Component {
               <Link to={`project/${projects[3].title}`}>
                 <ProjectCard image={images.obodinac} title="Obodinac Website" alt='obodinac' onClick={() => this.handleClick(3)}/>
               </Link>
+              <Link to={`project/${projects[4].title}`}>
+                <ProjectCard image={images.velimirPorfolio} title="Velimir's Portfolio" alt='portfolio' onClick={() => this.handleClick(4)}/>
+              </Link>
           </div>
 
         </div>

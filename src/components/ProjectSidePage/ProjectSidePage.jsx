@@ -17,7 +17,7 @@ const ProjectSidePage = ({i}) => {
   return (
     <div className='p__sidepage'>
       <div className='p__sidepage_project'>
-        <img src={projects[i].img} alt="naruto page" />
+        <img src={projects[i].img} alt={projects[i].title} />
       </div>
       <div className='p__sidepage_project-info'>
         <Link to={location.state?.from || '/'}>
