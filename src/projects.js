@@ -11,6 +11,7 @@ const narutoDesc = 'Front page design of Naruto website. This design contains in
 const gamboriniDesc = 'Front page desing of Gamborini restaurant. This design contains everything one restaurant website needs to have.'
 const magicbrainDesc = 'My first app. This application includes the ability to create a profile and choose whether to detect faces or logos from an image uploaded via URL.'
 const obodinacDesc = "Website of my family business. In addition to the main page, the website will include pages such as About Us, Our Offer, Gallery, Additional Offer, and Contact. All designs on the website were created in Figma.The website is currently in the development process."
+const velimirPortfolioDesc = "My first paid project. UI/UX and logo designer's portfolio. This portfolio contains everything you need to know about designer and his work experience."
 
 const projects = [
     {
@@ -43,7 +44,7 @@ const projects = [
     {
         img:images.velimirPorfolioPage,
         title:"Velimir's Portfolio",
-        description: obodinacDesc,
+        description: velimirPortfolioDesc,
         specification:obodinacSpec,
         link:'https://velimir-portfolio.onrender.com/'
     }

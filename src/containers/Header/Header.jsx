@@ -12,8 +12,12 @@ const Header = () => {
 
   useEffect(() => {
 
+    const body = document.querySelector('html');
+    setTimeout(() => {
+      body.classList.remove('instant-scroll');
+    },1);
+    
     const handleScroll = () => {
-
 
         if (window.scrollY > 0) {
           setButtonUp(true);

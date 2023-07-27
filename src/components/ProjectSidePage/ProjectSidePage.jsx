@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './projectsidepage.css'
 import images from '../../constants/images'
 import projects from '../../projects'
@@ -10,11 +10,16 @@ const ProjectSidePage = ({i}) => {
   const location = useLocation();
   const navigate = useNavigate();
 
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
 
 
 
 
   return (
+    
     <div className='p__sidepage'>
       <div className='p__sidepage_project'>
         <img src={projects[i].img} alt={projects[i].title} />

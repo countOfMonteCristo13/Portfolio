@@ -16,6 +16,8 @@ class Work extends Component {
 
   handleClick(i) {
     this.props.onProjectChange(i); // update project state to 1
+    const body = document.querySelector('html');
+    body.classList.add('instant-scroll');
   }
 
   render(){

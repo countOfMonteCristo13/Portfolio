@@ -17,11 +17,16 @@
   --color-black:#000;
   --color-darkpurple:#1a1527;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  
   font-family: var(--font-base);
 }
 
@@ -32,6 +37,10 @@ body{
 a{
   color: unset;
   text-decoration: none;
+}
+
+.instant-scroll {
+  scroll-behavior: auto;
 }
 
 .slide-bottom {
