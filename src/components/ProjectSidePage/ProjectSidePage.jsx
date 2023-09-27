@@ -14,10 +14,6 @@ const ProjectSidePage = ({i}) => {
     window.scrollTo(0,0);
   }, []);
 
-
-
-
-
   return (
     
     <div className='p__sidepage'>
@@ -39,12 +35,12 @@ const ProjectSidePage = ({i}) => {
         <div className='p__sidepage_project-info_description'>
             <p>{projects[i].description}</p>
         </div>
-        {
-          i !== 3 &&
+        
+          
           <div className='p__sidepage_project-info_button flex__center'>
             <a target='_blank'rel="noreferrer" href={projects[i].link}><button >Visit</button></a>
           </div>
-        }
+        
         <div className='p__sidepage_project-info_line'>
             <div/>
         </div>

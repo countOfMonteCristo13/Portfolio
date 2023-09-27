@@ -101,7 +101,7 @@
     border-radius: 20px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1024px) {
 
     .p__sidepage{
         flex-direction: column-reverse;
