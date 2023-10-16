@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .p__navbar_logo{
@@ -123,7 +123,7 @@ nav{
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
 
     .p__navbar_logo h2{
         font-size: 2.3rem;
@@ -158,7 +158,7 @@ nav{
 
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:425px) {
 
 
     .p__navbar_logo h2{

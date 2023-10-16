@@ -3,7 +3,7 @@
 }
 
 .p__work_section{
-    padding: 4rem 3rem;
+    padding: 3rem;
 
 }
 
@@ -14,9 +14,21 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
+    .p__work_cards{
+        gap: 2rem;
+    }
+
     .p__work_section{
-        padding: 3rem 2rem;
+        padding: 2rem 3rem;
+    }
+}
+
+
+
+@media screen and (max-width:425px) {
+    .p__work_cards{
+        gap: 1.5rem;
     }
 }
 

@@ -13,16 +13,6 @@ import codepenLogo from '../assets/codepen.png'
 import discordLogo from '../assets/discord.png'
 import gamborini from '../assets/gamborini.png'
 import obodinac from '../assets/obodinac.png'
-import html from '../assets/htmlLogo.png'
-import css from '../assets/cssLogo.png'
-import bootstrap from '../assets/bootstrapLogo.png'
-import js from '../assets/jsLogo.png'
-import react from '../assets/reactLogo.png'
-import nodeJS from '../assets/nodeJSLogo.png'
-import java from '../assets/javaLogo.png'
-import figma from '../assets/figmaLogo.png'
-import git from '../assets/gitLogo.png'
-import postgreSQL from '../assets/postgreSqlLogo.png'
 import gamboriniPage from '../assets/gamboriniPage.png'
 import arrowBack from '../assets/arrowBack.png'
 import arrowBack1 from '../assets/arrowBack1.png'
@@ -51,16 +41,6 @@ const images = {
     discordLogo,
     gamborini,
     obodinac,
-    html,
-    css,
-    js,
-    bootstrap,
-    react,
-    nodeJS,
-    git,
-    postgreSQL,
-    figma,
-    java,
     arrowBack,
     arrowBack1,
     obodinacPage,

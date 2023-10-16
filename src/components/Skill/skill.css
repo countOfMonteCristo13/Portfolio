@@ -1,0 +1,48 @@
+.skill-card{
+    flex-direction: column;
+    width: 150px;
+}
+
+.skill-card h3{
+    font-family: var(--font-backboard);
+    color: var(--color-yellow);
+}
+
+.skill-card img{
+    max-width: 130px;
+    max-height: 130px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .skill-card{
+        width: 130px;
+    }
+
+    .skill-card h3{
+        font-size: 0.8rem;
+    }
+
+    .skill-card img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+
+    .skill-card{
+        width: 95px;
+    }
+
+    .skill-card h3{
+        font-size: 0.6rem;
+    }
+
+    .skill-card img{
+        max-width: 80px;
+        max-height: 80px;
+    }
+}

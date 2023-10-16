@@ -123,7 +123,7 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
 
     .p__contact_section-smedia {
         grid-template-columns: 1fr;
@@ -167,7 +167,7 @@
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:425px) {
 
     .p__contact_section-smedia_logo{
         padding: 0.8rem;
