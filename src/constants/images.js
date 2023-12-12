@@ -3,8 +3,6 @@ import closedBracket from "../assets/closedBracket.png";
 import closeYellow from "../assets/closeYellow.png";
 import closeGray from "../assets/closeGray.png";
 import me from "../assets/Nikola.png";
-import narutoPage from "../assets/narutoPage.png";
-import naruto from "../assets/projekatNaruto.png";
 import instagramLogo from "../assets/instagram.png";
 import githubLogo from "../assets/github.png";
 import emailLogo from "../assets/email.png";
@@ -30,8 +28,6 @@ const images = {
   closeYellow,
   closeGray,
   me,
-  naruto,
-  narutoPage,
   instagramLogo,
   githubLogo,
   emailLogo,
