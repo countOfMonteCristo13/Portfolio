@@ -12,7 +12,7 @@ import discordLogo from "../assets/discord.png";
 import obodinac from "../assets/obodinac.png";
 import arrowBack from "../assets/arrowBack.png";
 import arrowBack1 from "../assets/arrowBack1.png";
-import obodinacPage from "../assets/obodinacPage.png";
+import obodinacPage from "../assets/obodinacPage.jpg";
 import magicBrain from "../assets/magicbrain.png";
 import magicBrainPage from "../assets/magicBrainPage.png";
 import check from "../assets/check.png";
